@@ -24,7 +24,7 @@ jobs:
 
       - run: npm run build
         env: 
-          TURBO_TOKEN: PdJRUUuVEtnw8iHJWATJ5Wg5
+          TURBO_TOKEN: ${{secrets.VERCEL_TOKEN}}
           TURBO_TEAM: scamposs
 
       - name: Deploy storybook 

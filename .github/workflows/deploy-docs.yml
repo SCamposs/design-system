@@ -23,7 +23,7 @@ jobs:
       - run: npm run build
         env: 
           TURBO_TOKEN: PdJRUUuVEtnw8iHJWATJ5Wg5
-          TURBO_TEAM: scmposs
+          TURBO_TEAM: scamposs
 
       - name: Deploy storybook 
         working-directory: ./packages/docs
